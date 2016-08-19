@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby -wU
+
+require 'dice_game/game'
+
+$thor_runner = true
+
+DiceGame::Game.start(ARGV)
